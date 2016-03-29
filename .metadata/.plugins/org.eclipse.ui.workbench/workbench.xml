@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="148" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="75" y="75">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="797" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.tibco.bw.core.design.process.editor.newprocessactionset" itemType="typeToolBarContribution" x="115" y="22"/>
+<coolItem id="com.tibco.xpd.resources.ui.actionSet.enableFeature1" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="com.tibco.zion.dc.new.dc.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.pde.ui.buildEditor" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="com.tibco.zion.dc.editor.packageunit" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" itemType="typeToolBarContribution" x="862" y="22"/>
+<coolItem id="com.tibco.bw.ui.manifestEditor" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1458581113125" focus="true" label="Workspace - Modeling">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" name="Helloworld.bwp" partName="Helloworld.bwp" path="C:/Users/amadou.barry/workspace/Tibco/Hello.world/Processes/hello/world/Helloworld.bwp" title="Helloworld.bwp" tooltip="Hello.world/Processes/hello/world/Helloworld.bwp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hello.world/Processes/hello/world/Helloworld.bwp"/>
+</editor>
+</editors>
+<views>
+<view id="com.tibco.bw.core.design.module.property.view.views.BWModuleView" partName="Module"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.tibco.bw.core.design.admin.ui.DeploymentView" partName="Deployment Servers"/>
+<view id="com.tibco.zion.common.zionhelpview" partName="Reference - online">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.tibco.zion.fileexplorer.views.FileExplorerView" partName="File Explorer">
+<viewState com.tibco.zion.fileexplorer.history.length="0" com.tibco.zion.fileexplorer.state.currentFolder="C:\Program Files\tibco\bw6\bw\6.2\samples"/>
+</view>
+<view id="com.tibco.xpd.deploy.server.view" partName="Deployment Server">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.tibco.zion.fileexplorer.views.FileExplorerView" activePerspective="com.tibco.modeling.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.tibco.bw.core.design.project.DesignPerspective" id="com.tibco.design.perspective" label="Design"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.process.editor.newprocessactionset.bwe"/>
+<alwaysOnActionSet id="org.eclipse.ui.test.actionSet"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.process.editor.newprocessactionset"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.BusinessWorksProjectActionSet"/>
+<alwaysOnActionSet id="com.tibco.bw.design.BWHelpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.tibco.xpd.core.validate.system.actionSet"/>
+<alwaysOnActionSet id="com.tibco.xpd.resources.ui.actionSet.enableFeature1"/>
+<alwaysOnActionSet id="com.tibco.zion.dc.new.dc.actionset"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.SearchActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<perspective_action id="com.tibco.design.perspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="org.tigris.subversion.subclipse.ui.svnPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.tibco.zion.fileexplorer.views.FileExplorerView"/>
+<view id="com.tibco.bw.core.design.module.property.view.views.BWModuleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.tibco.bw.core.design.admin.ui.DeploymentView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.tibco.zion.common.zionhelpview"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.internal.introview"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@34fdd8dd" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">&#x0A;<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4" ratioLeft="400" ratioRight="600" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.59969085" ratioLeft="388" ratioRight="259" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.tibco.zion.common.zionhelpview" label="BW Help"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.59969085" ratioLeft="388" ratioRight="259" relationship="4" relative="topLeft">&#x0A;<folder activePageID="com.tibco.zion.fileexplorer.views.FileExplorerView" appearance="2" expanded="2">&#x0A;<page content="com.tibco.zion.fileexplorer.views.FileExplorerView" label="File Explorer"/>
+<page content="com.tibco.bw.core.design.module.property.view.views.BWModuleView" label="Module"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.tibco.bw.core.design.admin.ui.DeploymentView" label="Deployment Servers"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.tibco.xpd.branding.XPDPerspectiveFactory" id="com.tibco.modeling.perspective" label="Modeling"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.process.editor.newprocessactionset.bwe"/>
+<alwaysOnActionSet id="org.eclipse.ui.test.actionSet"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.process.editor.newprocessactionset"/>
+<alwaysOnActionSet id="com.tibco.bw.core.design.BusinessWorksProjectActionSet"/>
+<alwaysOnActionSet id="com.tibco.bw.design.BWHelpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="com.tibco.xpd.core.validate.system.actionSet"/>
+<alwaysOnActionSet id="com.tibco.xpd.resources.ui.actionSet.enableFeature1"/>
+<alwaysOnActionSet id="com.tibco.zion.dc.new.dc.actionset"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.tibco.modeling.perspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="org.tigris.subversion.subclipse.ui.svnPerspective"/>
+<perspective_action id="org.eclipse.birt.report.designer.ui.ReportPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.tibco.xpd.deploy.server.view"/>
+<view id="com.tibco.zion.fileexplorer.views.FileExplorerView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="256" selectedTabId="com.tibco.zion.common.zionhelpview" style="0">
+<fastViews>
+<view id="com.tibco.zion.common.zionhelpview" ratio="0.3"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="com.tibco.zion.common.zionhelpview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@62a89838" ratio="0.73239434" ratioLeft="1144" ratioRight="418" relationship="2" relative="topLeft">
+<folder activePageID="com.tibco.zion.fileexplorer.views.FileExplorerView" appearance="2" expanded="1">
+<page content="com.tibco.zion.fileexplorer.views.FileExplorerView" label="File Explorer"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.073458076" ratioLeft="106" ratioRight="1337" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.9" ratioLeft="657" ratioRight="73" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@70fc3b71" ratio="0.74910396" ratioLeft="418" ratioRight="140" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.960274" ratioLeft="701" ratioRight="29" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.tibco.xpd.deploy.server.view" label="Deployment Server"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.ui.manifestEditor" path="/Hello_world/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.ui.manifestEditor" path="/Hello.world/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Hello.world/META-INF/module.bwm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Hello.world/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.zion.dc.editor.packageunit" path="/Hello.world.application/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" path="/Hello.world/Processes/hello/world/Helloworld.bwp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.buildEditor" path="/Hello.world/build.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/Hello.world/Processes/hello/world/Helloworld.bwp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Hello.world/Processes/hello/world/Helloworld.bwp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" path="/tibco.bw.sample.palette.file.OrderProcessing/Processes/tibco/bw/sample/palette/file/orderprocessing/ProcessOrder.bwp"/>
+</editors>
+<item historyLabel="Hello_world" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Hello.world" index="1"/>
+<item historyLabel="Hello.world" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Hello.world" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Hello.world" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Hello.world.application" index="4"/>
+<item historyLabel="Helloworld.bwp" index="5"/>
+<item historyLabel="Hello.world.application" index="4"/>
+<item historyLabel="Hello.world" index="1"/>
+<item historyLabel="Helloworld.bwp" index="5"/>
+<item historyLabel="build.properties" index="6"/>
+<item historyLabel="Helloworld.bwp" index="7">
+<position info="not_deleted" x="7277" y="43"/>
+</item>
+<item historyLabel="Helloworld.bwp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ProcessOrder.bwp" index="9"/>
+<item historyLabel="Helloworld.bwp" index="8">
+<position info="not_deleted" x="25470" y="0"/>
+</item>
+<item historyLabel="Helloworld.bwp" index="7">
+<position info="not_deleted" x="7277" y="43"/>
+</item>
+<item historyLabel="build.properties" index="6"/>
+<item active="true" historyLabel="Helloworld.bwp" index="5"/>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID" name="ProcessOrder.bwp" tooltip="tibco.bw.sample.palette.file.OrderProcessing/Processes/tibco/bw/sample/palette/file/orderprocessing/ProcessOrder.bwp">
+<persistable path="/tibco.bw.sample.palette.file.OrderProcessing/Processes/tibco/bw/sample/palette/file/orderprocessing/ProcessOrder.bwp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Helloworld.bwp" tooltip="Hello.world/Processes/hello/world/Helloworld.bwp">
+<persistable path="/Hello.world/Processes/hello/world/Helloworld.bwp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.buildEditor" name="build.properties" tooltip="Hello.world/build.properties">
+<persistable path="/Hello.world/build.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.zion.dc.editor.packageunit" name="MANIFEST.MF" tooltip="Hello.world.application/META-INF/MANIFEST.MF">
+<persistable path="/Hello.world.application/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.ui.manifestEditor" name="MANIFEST.MF" tooltip="Hello.world/META-INF/MANIFEST.MF">
+<persistable path="/Hello.world/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tibco.bw.ui.manifestEditor" name="MANIFEST.MF" tooltip="Hello_world/META-INF/MANIFEST.MF">
+<persistable path="/Hello_world/META-INF/MANIFEST.MF"/>
+</file>
+</mruList>
+</workbench>

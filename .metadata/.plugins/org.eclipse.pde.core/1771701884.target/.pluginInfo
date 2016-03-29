@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="338" name="TIBCO TPCL Springframework Core Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-core.jar"/>
+	</bundle>
+	<bundle bundleID="339" name="TIBCO Thirdparty Springframework OSGi Core Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-osgi-core-1.2.0.jar"/>
+	</bundle>
+	<bundle bundleID="332" localization="plugin" name="pluginName" provider="%provider">
+		<library name="0_opensaml-tibcomod.jar"/>
+		<library name="opensaml-2.6.3.jar"/>
+		<library name="openws-1.5.3.jar"/>
+		<library name="xmltooling-1.4.3.jar"/>
+	</bundle>
+	<bundle bundleID="333" name="Quartz Scheduler plugin" provider="opensymphony.com">
+		<library name="quartz-all-1.8.3.jar"/>
+	</bundle>
+	<bundle bundleID="159" name="Glassfish Jersey" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/javax.annotation-api-1.2.jar"/>
+		<library name="lib/validation-api-1.1.0.Final.jar"/>
+		<library name="lib/asm-all-repackaged-2.2.0-b21.jar"/>
+		<library name="lib/cglib-2.2.0-b21.jar"/>
+		<library name="lib/hk2-api-2.2.0-b21.jar"/>
+		<library name="lib/hk2-locator-2.2.0-b21.jar"/>
+		<library name="lib/hk2-utils-2.2.0-b21.jar"/>
+		<library name="lib/javax.inject-2.2.0-b21.jar"/>
+		<library name="lib/osgi-resource-locator-1.0.1.jar"/>
+		<library name="lib/mimepull-1.9.3.jar"/>
+		<library name="lib/jersey-client-2.7.jar"/>
+		<library name="lib/jersey-common-2.7.jar"/>
+		<library name="lib/jersey-container-servlet-2.7.jar"/>
+		<library name="lib/jersey-container-servlet-core-2.7.jar"/>
+		<library name="lib/jersey-guava-2.7.jar"/>
+		<library name="lib/jersey-media-json-jackson-2.7.jar"/>
+		<library name="lib/jersey-media-json-jettison-2.7.jar"/>
+		<library name="lib/jersey-media-multipart-2.7.jar"/>
+		<library name="lib/jersey-media-sse-2.7.jar"/>
+		<library name="lib/jersey-server-2.7.jar"/>
+	</bundle>
+	<bundle bundleID="330" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="annox-0.4.3.jar"/>
+	</bundle>
+	<bundle bundleID="158" name="BusinessWorks Thor Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="331" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="asm-all-2.2.2.jar"/>
+	</bundle>
+	<bundle bundleID="157" class="com.tibco.bw.thor.runtime.tools.internal.Activator" name="BusinessWorks Thor Runtime Tools" provider="TIBCO Software Inc."/>
+	<bundle bundleID="336" name="TIBCO TPCL Springframework Context-Support Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-context-support.jar"/>
+	</bundle>
+	<bundle bundleID="156" name="BusinessWorks Thor Runtime API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="337" name="TIBCO TPCL Springframework Context Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-context.jar"/>
+	</bundle>
+	<bundle bundleID="155" name="BusinessWorks Thor Management Web Integration" provider="TIBCO Software Inc."/>
+	<bundle bundleID="334" name="TIBCO TPCL Springframework AoP Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-aop.jar"/>
+	</bundle>
+	<bundle bundleID="154" name="BusinessWorks Thor Management Persistence Plugin" provider="TIBCO Software Inc."/>
+	<bundle bundleID="335" name="TIBCO TPCL Springframework Beans Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-beans.jar"/>
+	</bundle>
+	<bundle bundleID="152" name="BusinessWorks Thor Management Model Plugin" provider="TIBCO Software Inc."/>
+	<bundle bundleID="153" class="com.tibco.bw.thor.management.osgi.Activator" name="BusinessWorks Thor Management AppNode Web Integration" provider="TIBCO Software Inc."/>
+	<bundle bundleID="150" name="BusinessWorks Thor Management Common" provider="TIBCO Software Inc."/>
+	<bundle bundleID="151" name="BusinessWorks Thor Transport plugin" provider="TIBCO Software Inc."/>
+	<bundle bundleID="202" name="Tibco Governance Agent BW 6 Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="349" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="203" name="Tibco Governance Agent Core Plug-in" provider="TIBCO"/>
+	<bundle bundleID="204" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="205" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="200" name="TIBCO Security Governance Policy Action  Implementation" provider="TIBCO Software Inc."/>
+	<bundle bundleID="201" name="TIBCO Governance Agent API Plug-in" provider="TIBCO Inc.">
+		<library name="GovernanceAgentListenerPT-d935958f-service-beans.jar"/>
+		<library name="GovernanceAgentListenerPT-d935958f-service-interface.jar"/>
+		<library name="GovernanceAgentPT-48ded1d8-service-beans.jar"/>
+		<library name="GovernanceAgentPT-48ded1d8-service-interface.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="341" name="TIBCO TPCL Springframework WebMVC Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-webmvc.jar"/>
+	</bundle>
+	<bundle bundleID="169" name="Codehaus Jackson" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/jackson-all-1.9.11.jar"/>
+	</bundle>
+	<bundle bundleID="342" name="TIBCO TPCL Springframework Web Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-web.jar"/>
+	</bundle>
+	<bundle bundleID="343" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="344" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="166" class="org.apache.felix.scr.impl.Activator" name="TPCL Apache Felix SCR" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/org.apache.felix.scr-1.8.3-SNAPSHOT.jar"/>
+	</bundle>
+	<bundle bundleID="206" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="345" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="165" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jcl-over-slf4j-1.6.6.jar"/>
+	</bundle>
+	<bundle bundleID="207" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+		<library name="govcontrolExportImportTypes.jar"/>
+		<library name="actionOnlyECATypes.jar"/>
+	</bundle>
+	<bundle bundleID="346" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="168" name="Axis2 Woden" provider="TIBCO Software Inc.">
+		<library name="woden-api-1.0M9.jar"/>
+		<library name="woden-impl-commons-1.0M9.jar"/>
+		<library name="woden-impl-dom-1.0M9.jar"/>
+	</bundle>
+	<bundle bundleID="208" class="com.tibco.governance.common.govcontrol.setting.Activator" name="Governance Control ECA Extension Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="347" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="167" name="Axis2 Neethi" provider="TIBCO Software Inc.">
+		<library name="neethi-3.0.2.jar"/>
+	</bundle>
+	<bundle bundleID="209" name="Third Party Library Plug-in" provider="TIBCO">
+		<library name="lib/velocity-1.7.jar"/>
+		<library name="common-govcontrol.jar"/>
+	</bundle>
+	<bundle bundleID="348" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="409" class="org.eclipse.equinox.http.jetty.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName">
+		<library name="lib/org.eclipse.equinox.http.jetty_3.0.100.v20130327-1442.jar"/>
+	</bundle>
+	<bundle bundleID="161" name="JAX-RS API" provider="TIBCO Software Inc.">
+		<library name="lib/javax.ws.rs-api-2.0.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="3" name="TIBCO BW File Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="408" class="org.eclipse.equinox.console.command.adapter.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor">
+		<library name="lib/org.eclipse.equinox.console_1.0.0.v20120522-1841.jar"/>
+	</bundle>
+	<bundle bundleID="162" name="TIBCO BW PostgreSQL Driver DataSource Factory" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/postgresql-9.2-1002.jdbc4.jar"/>
+	</bundle>
+	<bundle bundleID="2" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="163" class="com.tibco.bw.tpcl.jdbc.datasourcefactory.sqlserver.Activator" name="TIBCO BW TPCL MS SqlServer JDBC Driver" provider="TIBCO Software Inc.">
+		<library name="lib/sqljdbc4.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="164" name="Axis2 Core" provider="TIBCO Software Inc.">
+		<library name="axis2-kernel-1.6.2.jar"/>
+		<library name="axis2-transport-http-1.6.2.jar"/>
+		<library name="axis2-jaxws-1.6.2.jar"/>
+	</bundle>
+	<bundle bundleID="405" class="org.apache.felix.gogo.shell.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/org.apache.felix.gogo.shell-0.10.0.jar"/>
+	</bundle>
+	<bundle bundleID="7" class="com.tibco.bw.palette.ftp.runtime.Activator" name="TIBCO BW FTP Palette" provider="TIBCO"/>
+	<bundle bundleID="404" class="org.apache.felix.gogo.runtime.activator.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/org.apache.felix.gogo.runtime-0.10.0.jar"/>
+	</bundle>
+	<bundle bundleID="6" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="407" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="5" class="com.tibco.bw.palette.ftl.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="340" name="TIBCO Thirdparty Springframework OSGi IO Plug-in" provider="TIBCO Software Inc.">
+		<library name="spring-osgi-io-1.2.0.jar"/>
+	</bundle>
+	<bundle bundleID="406" class="org.apache.felix.metatype.internal.Activator" name="Apache Felix Metatype Service" provider="The Apache Software Foundation">
+		<library name="org.apache.felix.metatype-1.0.4.jar"/>
+		<library name="kxml2-2.2.2.jar"/>
+	</bundle>
+	<bundle bundleID="160" name="Wordnik Swagger 2.10.0 1.3.2" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/commons-lang-2.4.jar"/>
+		<library name="lib/scala-library-2.10.0.jar"/>
+		<library name="lib/swagger-annotations-1.3.2.jar"/>
+		<library name="lib/swagger-core_2.10-1.3.2.jar"/>
+		<library name="lib/swagger-jaxrs_2.10-1.3.2.jar"/>
+		<library name="lib/swagger-jersey2-jaxrs_2.10-1.3.2.jar"/>
+		<library name="lib/json4s-ast_2.10-3.2.4.jar"/>
+		<library name="lib/json4s-core_2.10-3.2.4.jar"/>
+		<library name="lib/json4s-jackson_2.10-3.2.4.jar"/>
+		<library name="lib/jackson-databind-2.3.1.jar"/>
+		<library name="lib/jackson-all-1.9.11.jar"/>
+		<library name="lib/jackson-annotations-2.3.0.jar"/>
+		<library name="lib/jackson-core-2.3.1.jar"/>
+	</bundle>
+	<bundle bundleID="4" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="401" class="org.apache.felix.cm.impl.ConfigurationManager" name="Apache Felix Configuration Admin Service V1.4.0" provider="The Apache Software Foundation">
+		<library name="."/>
+		<library name="org.apache.felix.configadmin-1.4.0.jar"/>
+	</bundle>
+	<bundle bundleID="400" name="Zion Validation API Bundle" provider="TIBCO Software Inc."/>
+	<bundle bundleID="403" class="org.apache.felix.gogo.command.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/org.apache.felix.gogo.command-0.12.0.jar"/>
+	</bundle>
+	<bundle bundleID="9" class="com.tibco.bw.palette.generalactivities.runtime.Activator" name="TIBCO BW General Activities Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="402" class="org.apache.felix.eventadmin.impl.Activator" name="Apache Felix EventAdmin" provider="The Apache Software Foundation">
+		<library name="."/>
+		<library name="lib/org.apache.felix.eventadmin-1.4.2.jar"/>
+	</bundle>
+	<bundle bundleID="8" localization="plugin" name="%pluginName" provider="TIBCO Software Inc."/>
+	<bundle bundleID="211" name="TIBCO HAWK HMA API" provider="TIBCO Software Inc">
+		<library name="ami_tibas.jar"/>
+		<library name="ami_tibrv.jar"/>
+		<library name="ami.jar"/>
+		<library name="askit.jar"/>
+		<library name="util_tibas.jar"/>
+		<library name="util_tibrv.jar"/>
+		<library name="util.jar"/>
+	</bundle>
+	<bundle bundleID="212" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibjmsadmin.jar"/>
+	</bundle>
+	<bundle bundleID="210" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="215" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibjms.jar"/>
+	</bundle>
+	<bundle bundleID="318" name="GenXDM W3C XML Schema Parser" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.w3c.xs_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="216" name="JSON XML Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="319" name="GenXDM WSDL Processor" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.wsdl_1.1.1.jar"/>
+	</bundle>
+	<bundle bundleID="213" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibrvjms.jar"/>
+	</bundle>
+	<bundle bundleID="316" name="GenXDM Input/Output Processor" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.io_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="214" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibjmsufo.jar"/>
+	</bundle>
+	<bundle bundleID="317" name="GenXDM W3C XML Schema Validator" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.w3c.xs.validation_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="179" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="219" name="Neo Eclipse support Plug-in" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="314" name="GenXDM Bridge Kit" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.bridgekit_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="178" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="315" name="GenXDM Conversion Processor" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.convert_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="177" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="217" name="Neo Common Utilities" provider="TIBCO Software Inc."/>
+	<bundle bundleID="312" name="GenXDM Axiom Bridge" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.bridge.axiom_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="176" name="TIBCO Validator API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="218" class="com.tibco.neo.component.osgi.NeoOSGiBundleActivator" name="Neo Eclipse support Plug-in" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="313" name="GenXDM Document Object Model Bridge" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.bridge.dom_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="310" localization="plugin" name="Eclipse XSD Subset Plug-In" provider="Eclipse Foundation">
+		<library name="."/>
+		<library name="org.eclipse.xsd_2.4.2.v200902171115.jar"/>
+	</bundle>
+	<bundle bundleID="311" name="GenXDM API" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.api_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="170" name="JSON StAX Implementation">
+		<library name="jettison-1.3.3.jar"/>
+	</bundle>
+	<bundle bundleID="171" localization="plugin" name="HSQL jdbc driver" provider="The HSQL Development Group">
+		<library name="hsqldb.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="174" name="ParseRenderJSON">
+		<library name="lib/xdata.jar"/>
+		<library name="lib/TIBCOxml.jar"/>
+		<library name="lib/datar.jar"/>
+		<library name="jsonutil.jar"/>
+		<library name="lib/spar.jar"/>
+	</bundle>
+	<bundle bundleID="175" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="172" name="SIGAR Plug-In" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="log4j.jar"/>
+		<library name="sigar.jar"/>
+	</bundle>
+	<bundle bundleID="173" name="ObjectWeb ASM Library" provider="TIBCO Software Inc.">
+		<library name="asm-all-5.0.3.jar"/>
+	</bundle>
+	<bundle bundleID="410" class="org.eclipse.equinox.http.servlet.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName">
+		<library name="lib/org.eclipse.equinox.http.servlet_1.1.400.v20130418-1354.jar"/>
+	</bundle>
+	<bundle bundleID="414" name="OSGi Alliance JDBC Service API" provider="TIBCO Software Inc.">
+		<library name="lib/org.osgi.service.jdbc.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="413" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="412" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="411" class="org.eclipse.equinox.internal.util.UtilActivator" localization="plugin" name="%bundleName" provider="%bundleVendor">
+		<library name="lib/org.eclipse.equinox.util_1.0.400.v20120522-2049.jar"/>
+	</bundle>
+	<bundle bundleID="220" name="TIBCO Group Management Service Qin Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="221" name="TIBCO Group Management Service Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="222" name="TIBCO Group Management Service Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="223" name="Neo Common Data Modeling Plug-in" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="224" class="com.tibco.pvm.infra.dataexch.bpel.genxdm.config.IpmxGenxBpelBundleActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="327" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jaxen-1.1.4.jar"/>
+	</bundle>
+	<bundle bundleID="225" name="PVM Bpel API Plug-in" provider="TIBCO"/>
+	<bundle bundleID="328" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jdom.jar"/>
+	</bundle>
+	<bundle bundleID="226" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="329" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="joda-time-1.6.2.jar"/>
+	</bundle>
+	<bundle bundleID="227" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="188" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="228" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="323" name="GenXDM WSDL API" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.wsdl.api_1.1.1.jar"/>
+	</bundle>
+	<bundle bundleID="187" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="229" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="324" name="GenXDM XOP API" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.xop.api_1.0.0.jar"/>
+	</bundle>
+	<bundle bundleID="325" name="GenXDM XPath 1.0 API">
+		<library name="org.genxdm.xpath.v10_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="189" class="com.tibco.corona.eventformat.model.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="326" name="GenXDM XPath 2.0 API" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.xpath.v20_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="320" name="GenXDM XOP Processor" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.xop_1.0.0.jar"/>
+	</bundle>
+	<bundle bundleID="321" name="GenXDM XPath 1.0 Implementation" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.xpath.v10_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="322" name="GenXDM XPath 2.0 Processor" provider="TIBCO Software Inc.">
+		<library name="org.genxdm.processor.xpath.v20_1.1.0.jar"/>
+	</bundle>
+	<bundle bundleID="180" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="181" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="182" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="183" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="184" name="%pluginName" provider="%providerName">
+		<library name="."/>
+		<library name="lib/jmxremote_optional.jar"/>
+	</bundle>
+	<bundle bundleID="185" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="186" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="116" class="com.tibco.bw.sharedresource.trinity.authn.kerberos.runtime.KerberosAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="117" localization="plugin" name="%pluginName" provider="TIBCO Software Inc."/>
+	<bundle bundleID="114" class="com.tibco.bw.sharedresource.trinity.authn.db.runtime.DBAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="115" class="com.tibco.bw.sharedresource.trinity.authn.jdbc.runtime.JDBCAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="112" localization="plugin" name="TIBCO BW Threadpool Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="113" name="com.tibco.bw.sharedresource.threadpool.runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="110" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="111" class="com.tibco.bw.sharedresource.tcpconnection.runtime.Activator" name="%pluginName" provider="TIBCO Software Inc."/>
+	<bundle bundleID="118" class="com.tibco.bw.sharedresource.trinity.authn.ldap.runtime.LDAPAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="119" class="com.tibco.bw.sharedresource.trinity.authn.saml.runtime.SAMLAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="125" class="com.tibco.bw.sharedresource.trinity.authn.xml.runtime.XMLAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="126" name="TIBCO BW Trinity Keystore Credential Shared Resource" provider="TIBCO Software Inc."/>
+	<bundle bundleID="127" class="com.tibco.bw.sharedresource.trinity.credential.keystore.runtime.KeyStoreResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="300" name="Apache XML Resolver" provider="The Apache Software Foundation">
+		<library name="resolver.jar"/>
+	</bundle>
+	<bundle bundleID="128" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="121" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="302" name="Apache Xalan Serializer Plug-in" provider="The Apache Software Foundation">
+		<library name="encodings-tibco-fix.jar"/>
+		<library name="serializer.jar"/>
+	</bundle>
+	<bundle bundleID="122" class="com.tibco.bw.sharedresource.trinity.authn.wss.runtime.WSSAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="301" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="config-tibco.jar"/>
+		<library name="xmlsec-1.5.6.jar"/>
+	</bundle>
+	<bundle bundleID="123" class="com.tibco.bw.sharedresource.trinity.authn.x509.runtime.X509AuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="304" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="dom4j-1.6.1.jar"/>
+	</bundle>
+	<bundle bundleID="124" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="303" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="xbean.jar"/>
+		<library name="xbean_xpath.jar"/>
+	</bundle>
+	<bundle bundleID="306" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+		<library name="com.tibco.tpcl.org.eclipse.bpel.common.model.jar"/>
+		<library name="com.tibco.tpcl.org.eclipse.bpel.model.jar"/>
+	</bundle>
+	<bundle bundleID="305" name="BPEL Validator">
+		<library name="com.tibco.tpcl.org.eclipse.bpel.xpath10.jar"/>
+		<library name="com.tibco.tpcl.org.eclipse.bpel.validator.jar"/>
+		<library name="antlr-runtime-3.0.1.jar"/>
+	</bundle>
+	<bundle bundleID="308" name="TIBCO TPCL Eclipse Jetty 8" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="org.eclipse.jetty.ajp_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.annotations_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.client_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.continuation_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.http_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.io_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.plus_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.security_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.server_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.servlet_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.servlets_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.util_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.webapp_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.websocket_8.1.16.v20140903.jar"/>
+		<library name="org.eclipse.jetty.xml_8.1.16.v20140903.jar"/>
+	</bundle>
+	<bundle bundleID="307" localization="plugin" name="EMF Subset Plug-In" provider="%providerName">
+		<library name="."/>
+		<library name="package-registry-adapter.jar"/>
+		<library name="org.eclipse.emf.common_2.4.0.v200806091234.jar"/>
+		<library name="org.eclipse.emf.ecore_2.4.2.v200902171115.jar"/>
+		<library name="org.eclipse.emf.ecore.xmi_2.4.1.v200902171115.jar"/>
+	</bundle>
+	<bundle bundleID="129" class="com.tibco.bw.sharedresource.trinity.credential.password.runtime.PasswordResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="309" localization="plugin" name="WST/WSDL4J Subset Plug-In" provider="Eclipse Foundation">
+		<library name="."/>
+		<library name="org.eclipse.wst.wsdl_1.1.202.v200809291819.jar"/>
+	</bundle>
+	<bundle bundleID="120" class="com.tibco.bw.sharedresource.trinity.authn.siteminder.runtime.SiteminderAuthenticationResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="134" class="com.tibco.bw.sharedresource.trinity.identity.trust.runtime.TrustResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="135" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="132" class="com.tibco.bw.sharedresource.trinity.identity.subject.runtime.SubjectResourceActivator" name="Runtime" provider="TIBCO"/>
+	<bundle bundleID="133" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="138" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="139" name="TIBCO BW Trinity Server SSL Shared Resource" provider="TIBCO Software Inc."/>
+	<bundle bundleID="136" name="TIBCO BW Trinity Client SSL Shared Resource" provider="TIBCO Software Inc."/>
+	<bundle bundleID="137" class="com.tibco.bw.sharedresource.trinity.ssl.client.runtime.SSLClientResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="131" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="130" class="com.tibco.bw.sharedresource.trinity.credential.trinity.runtime.TrinityResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="143" name="Model" provider="TIBCO"/>
+	<bundle bundleID="144" name="BusinessWorks Thor Admin API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="145" name="BusinessWorks Admin Client" provider="TIBCO Software Inc."/>
+	<bundle bundleID="146" name="TIBCO BusinessWorks Thor common code" provider="TIBCO Software Inc."/>
+	<bundle bundleID="147" name="BusinessWorks Eclipse Environment Fragment" provider="TIBCO Software Inc."/>
+	<bundle bundleID="148" name="TIBCO BusinessWorks Thor Framework API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="149" name="BusinessWorks Thor Management Client" provider="TIBCO Software Inc."/>
+	<bundle bundleID="140" class="com.tibco.bw.sharedresource.trinity.ssl.server.runtime.SSLServerResourceActivator" name="%pluginName" provider="TIBCO"/>
+	<bundle bundleID="142" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="141" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="195" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="194" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="197" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="196" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="191" class="com.tibco.expr.script.emf.support.osgi.ScriptEmfActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="190" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="193" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibftl.jar"/>
+		<library name="tibftlgroup.jar"/>
+	</bundle>
+	<bundle bundleID="192" class="com.tibco.expr.script.support.osgi.ScriptActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="198" name="TIBCO Security Governance API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="199" name="TIBCO Security Governance Policy Action Model" provider="TIBCO Software Inc.">
+		<library name="lib/com.tibco.governance.pa.action.model.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="35" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="36" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="33" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="34" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="39" name="TIBCO RealmManager Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="37" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/rtclient.jar"/>
+		<library name="lib/rtcommon.jar"/>
+		<library name="lib/rtruntime.jar"/>
+		<library name="lib/spm.jar"/>
+		<library name="lib/rttransport.jar"/>
+		<library name="lib/rtapi.jar"/>
+		<library name="lib/rtmetrics.jar"/>
+	</bundle>
+	<bundle bundleID="38" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="tibrvnativesd.jar"/>
+	</bundle>
+	<bundle bundleID="43" name="Schema" provider="TIBCO"/>
+	<bundle bundleID="42" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="41" class="com.tibco.bw.binding.rest.jaxrs.runtime.Activator" name="Rest Binding JAXRSRuntime" provider="TIBCO"/>
+	<bundle bundleID="40" name="TIBCO Corporate Repository Info Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="22" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="23" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="24" name="TIBCO BW REST/JSON Palette" provider="TIBCO Software Inc.">
+		<library name="."/>
+		<library name="lib/jersey-apache-connector-2.7.jar"/>
+		<library name="lib/spar.jar"/>
+	</bundle>
+	<bundle bundleID="25" localization="plugin" name="RVPaletteModel" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="26" class="com.tibco.bw.palette.rv.runtime.RVPaletteRuntimeActivator" name="TIBCO BW Rendezvous Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="27" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="28" class="com.tibco.bw.palette.tcp.runtime.Activator" name="TIBCO BW TCP Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="29" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="30" name="TIBCO BW XML Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="32" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="31" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="19" class="com.tibco.bw.palette.mail.runtime.Activator" name="TIBCO BW Mail Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="17" class="com.tibco.bw.palette.jms.runtime.JMSPaletteRuntimeActivator" name="TIBCO BW JMS Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="18" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="15" name="TIBCO BW JDBC Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="16" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="13" name="TIBCO BW Java Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="14" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="11" class="com.tibco.bw.palette.http.runtime.Activator" name="TIBCO BW HTTP Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="12" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="21" name="TIBCO BW Parse Palette" provider="TIBCO Software Inc."/>
+	<bundle bundleID="20" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="10" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="79" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="78" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="77" class="com.tibco.bw.platformservices.endpoints.PluginActivator" name="Endpoints Listing Service" provider="TIBCO"/>
+	<bundle bundleID="82" name="TIBCO BW Runtime Event API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="83" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="80" name="BusinessWorks Platform Service Support Implementation" provider="TIBCO Software Inc."/>
+	<bundle bundleID="81" name="BusinessWorks Platform Services Support API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="86" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="87" localization="plugin" name="%pluginName" provider="TIBCO Software Inc."/>
+	<bundle bundleID="84" localization="plugin" name="TIBCO BW Common Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="85" name="com.tibco.bw.sharedresource.common.runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="67" name="BusinessWorks Framework API" provider="TIBCO Software Inc."/>
+	<bundle bundleID="66" name="TIBCO BusinessWorks Logback Extension" provider="TIBCO Software Inc."/>
+	<bundle bundleID="69" name="BusinessWorks Framework Engine" provider="TIBCO Software Inc."/>
+	<bundle bundleID="68" name="BusinessWorks Framework Engine Statistics" provider="TIBCO Software Inc."/>
+	<bundle bundleID="70" name="BusinessWorks Framework" provider="TIBCO Software Inc."/>
+	<bundle bundleID="71" name="Interceptor" provider="TIBCO"/>
+	<bundle bundleID="72" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="73" class="com.tibco.bw.jms.shared.JMSCommonActivator" name="JMS Common Configuration Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="74" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="75" name="Java" provider="TIBCO"/>
+	<bundle bundleID="76" name="Endpoint Listing Service Implementation" provider="TIBCO"/>
+	<bundle bundleID="59" name="BW Statistics Event Listener" provider="TIBCO Software Inc."/>
+	<bundle bundleID="58" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="57" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="56" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="55" name="TIBCO BW Model Conversion Utilities" provider="TIBCO Software Inc."/>
+	<bundle bundleID="64" name="Endpoints Discovery API" provider="TIBCO Software Inc"/>
+	<bundle bundleID="65" name="BusinessWorks 6 HAWK MicroAgent" provider="TIBCO Software Inc"/>
+	<bundle bundleID="62" name="BW Process Validator" provider="TIBCO Software Inc."/>
+	<bundle bundleID="63" name="TIBCO BW Dependency Framework" provider="TIBCO Software Inc."/>
+	<bundle bundleID="60" name="BusinessWorks Core Runtime Support" provider="TIBCO Software Inc."/>
+	<bundle bundleID="61" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="49" name="Client" provider="TIBCO">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="48" name="TIBCO BusinessWorks Runtime Binding Implementation for Soap" provider="TIBCO Software Inc."/>
+	<bundle bundleID="45" class="com.tibco.bw.rest.swagger.Activator" name="Swagger Service" provider="TIBCO">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="44" class="com.tibco.bw.binding.rest.runtime.Activator" name="Rest Binding Runtime" provider="TIBCO">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="47" localization="plugin" name="com.tibco.bw.binding.soap.model" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="46" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="51" class="com.tibco.bw.cache.runtime.wsdl.loc.LocWsdlCacheFactory" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="52" class="com.tibco.bw.cache.runtime.xsd.loc.LocXsdCacheFactory" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="53" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="54" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="50" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="281" name="Apache Commons DB Connection Pooling" provider="The Apache Software Foundation">
+		<library name="commons-dbcp-1.2.1.jar"/>
+	</bundle>
+	<bundle bundleID="280" name="Apache Commons Java Collections Extensions" provider="The Apache Software Foundation">
+		<library name="commons-collections-3.2.1.jar"/>
+	</bundle>
+	<bundle bundleID="285" name="Apache Commons XPath for Java Objects" provider="The Apache Software Foundation">
+		<library name="commons-jxpath-1.2.jar"/>
+	</bundle>
+	<bundle bundleID="284" name="Apache Jakarta Commons IO" provider="The Apache Software Foundation">
+		<library name="commons-io-1.2.jar"/>
+	</bundle>
+	<bundle bundleID="283" name="HttpClient Apache Commons" provider="The Apache Software Foundation">
+		<library name="commons-httpclient-3.1.jar"/>
+	</bundle>
+	<bundle bundleID="282" name="Apache Commons File Upload Web Service" provider="The Apache Software Foundation">
+		<library name="commons-fileupload-1.2.jar"/>
+	</bundle>
+	<bundle bundleID="288" localization="plugin" name="%pluginName" provider="%provider">
+		<library name="not-yet-commons-ssl-0.3.9.jar"/>
+	</bundle>
+	<bundle bundleID="289" localization="plugin" name="%pluginName" provider="%provider">
+		<library name="harmony-asn1.jar"/>
+	</bundle>
+	<bundle bundleID="286" name="Apache Jakarta Commons Language Support" provider="The Apache Software Foundation">
+		<library name="commons-lang-2.4.jar"/>
+	</bundle>
+	<bundle bundleID="287" name="Apache Commons Generic Pools" provider="The Apache Software Foundation">
+		<library name="commons-pool-1.6.jar"/>
+	</bundle>
+	<bundle bundleID="270" name="JRE package exports" provider="TIBCO Software Inc.">
+		<library name="xml-apis.jar"/>
+	</bundle>
+	<bundle bundleID="272" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="wsdl4j.jar"/>
+	</bundle>
+	<bundle bundleID="271" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="geronimo-jta_1.1_spec-1.1.1.jar"/>
+	</bundle>
+	<bundle bundleID="274" name="TIBCO BusinessWorks Logback Plug-in" provider="TIBCO Software Inc.">
+		<library name="slf4j-api-1.7.5.jar"/>
+		<library name="logback-core-1.0.13.jar"/>
+		<library name="logback-access-1.0.13.jar"/>
+		<library name="logback-classic-1.0.13.jar"/>
+		<library name="commons-compiler.jar"/>
+		<library name="janino.jar"/>
+		<library name="jul-to-slf4j-1.7.5.jar"/>
+	</bundle>
+	<bundle bundleID="273" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jaxb-impl.jar"/>
+	</bundle>
+	<bundle bundleID="275" name="Mustache TPCL" provider="TIBCO Software Inc.">
+		<library name="lib/compiler-0.8.16-SNAPSHOT-jar-with-dependencies.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="276" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="aopalliance.jar"/>
+	</bundle>
+	<bundle bundleID="277" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="axiom-api-1.2.13.jar"/>
+		<library name="axiom-c14n-1.2.13.jar"/>
+		<library name="axiom-dom-1.2.13.jar"/>
+		<library name="axiom-impl-1.2.13.jar"/>
+	</bundle>
+	<bundle bundleID="278" name="Apache Commons Java Bean Utilities" provider="The Apache Software Foundation">
+		<library name="commons-beanutils.jar"/>
+		<library name="commons-beanutils-bean-collections.jar"/>
+		<library name="commons-beanutils-core.jar"/>
+	</bundle>
+	<bundle bundleID="279" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="commons-codec-1.3.jar"/>
+	</bundle>
+	<bundle bundleID="109" name="Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="108" localization="plugin" name="TIBCO BW Rendezvous Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="107" class="com.tibco.bw.sharedresource.runtime.Activator" name="TIBCO BW Resource SDK" provider="TIBCO Software Inc."/>
+	<bundle bundleID="106" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="105" name="com.tibco.bw.sharedresource.mail.runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="104" localization="plugin" name="TIBCO BW SMTP Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="103" class="com.tibco.bw.sr.jms.runtime.JMSSRBundleActivator" name="JMS Shared Resource Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="102" class="com.tibco.bw.sr.jms.runtime.ems.client.Activator" name="EMS Fragment for BW JMS Shared Resource" provider="TIBCO Software Inc."/>
+	<bundle bundleID="99" name="TIBCO BW JDBC Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="101" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="100" class="com.tibco.bw.sharedresource.jdbc.runtime.internal.Activator" name="com.tibco.bw.sharedresource.jdbc.runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="98" name="Runtime" provider="TIBCO"/>
+	<bundle bundleID="97" localization="plugin" name="TIBCO BW Java Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="391" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="96" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="390" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="95" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="393" class="com.tibco.trinity.runtime.common.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="94" class="com.tibco.bw.sharedresource.http.runtime.Activator" name="com.tibco.bw.sharedresource.http.runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="392" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="93" name="com.tibco.bw.sharedresource.http.runtime.api" provider="TIBCO Software Inc."/>
+	<bundle bundleID="395" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="92" localization="plugin" name="TIBCO BW HTTP Shared Resource" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="394" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="91" name="Runtime" provider="TIBCO Software Inc."/>
+	<bundle bundleID="90" localization="plugin" name="%pluginName" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="294" name="Apache Ant Project Build Support" provider="The Apache Software Foundation">
+		<library name="ant-antlr.jar"/>
+		<library name="ant-apache-bcel.jar"/>
+		<library name="ant-apache-bsf.jar"/>
+		<library name="ant-apache-log4j.jar"/>
+		<library name="ant-apache-regexp.jar"/>
+		<library name="ant-apache-resolver.jar"/>
+		<library name="ant-apache-xalan2.jar"/>
+		<library name="ant-commons-logging.jar"/>
+		<library name="ant-javamail.jar"/>
+		<library name="ant-jmf.jar"/>
+		<library name="ant-launcher.jar"/>
+		<library name="ant-swing.jar"/>
+		<library name="ant-trax.jar"/>
+		<library name="ant.jar"/>
+	</bundle>
+	<bundle bundleID="293" name="Apache Jakarta Log4j Logging Library" provider="The Apache Software Foundation">
+		<library name="extension.jar"/>
+		<library name="log4j-1.2.15.jar"/>
+	</bundle>
+	<bundle bundleID="296" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="XmlSchema-1.4.2.jar"/>
+	</bundle>
+	<bundle bundleID="295" name="Apache Velocity" provider="Apache Software Foundation">
+		<library name="velocity-1.7.jar"/>
+	</bundle>
+	<bundle bundleID="290" class="org.apache.http.osgi.impl.HttpProxyConfigurationActivator" name="Apache Apache HttpClient OSGi bundle" provider="The Apache Software Foundation">
+		<library name="org.apache.httpcomponents.httpclient_4.3.3.jar"/>
+		<library name="commons-logging-1.1.3.jar"/>
+	</bundle>
+	<bundle bundleID="292" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="apache-mime4j-core-0.7.2.jar"/>
+	</bundle>
+	<bundle bundleID="291" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="httpcore-4.0.1.jar"/>
+	</bundle>
+	<bundle bundleID="297" localization="plugin" name="%pluginName" provider="%provider">
+		<library name="wss4j.jar"/>
+	</bundle>
+	<bundle bundleID="298" name="Apache Xalan Plug-in" provider="The Apache Software Foundation">
+		<library name="xalan.jar"/>
+	</bundle>
+	<bundle bundleID="299" name="Apache Xerces XML Parser" provider="The Apache Software Foundation">
+		<library name="xercesImpl.jar"/>
+		<library name="fixSoftRefSymbolTable.jar"/>
+	</bundle>
+	<bundle bundleID="396" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="397" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="398" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="399" name="Zion Validation Core Bundle" provider="TIBCO software Inc."/>
+	<bundle bundleID="88" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="89" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="240" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="241" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="383" class="com.tibco.trinity.runtime.core.provider.identity.subject.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="384" class="com.tibco.trinity.runtime.core.provider.identity.trust.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="381" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="382" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="380" class="com.tibco.trinity.runtime.core.provider.credential.password.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="389" name="WSS Plug-in" provider="TIBCO Software Inc."/>
+	<bundle bundleID="388" localization="plugin" name="%pluginName" provider="%pluginVendor"/>
+	<bundle bundleID="387" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="386" class="com.tibco.trinity.runtime.core.provider.proxy.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="385" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="245" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="244" class="com.tibco.spm.bwprobe.client.Activator" name="Subscriber" provider="TIBCO">
+		<library name="lib/external/jackson-annotations-2.1.4.jar"/>
+		<library name="lib/external/jackson-core-2.1.4.jar"/>
+		<library name="lib/external/jackson-databind-2.1.4.jar"/>
+		<library name="lib/tibco/rtclient.jar"/>
+		<library name="lib/tibco/rtcommon.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="243" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="242" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="249" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="248" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="247" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="246" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="230" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="370" class="com.tibco.trinity.runtime.core.provider.authn.saml.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="371" class="com.tibco.trinity.runtime.core.provider.authn.sample.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="372" class="com.tibco.trinity.runtime.core.provider.authn.self.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="373" class="com.tibco.trinity.runtime.core.provider.authn.siteminder.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="379" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="239" class="com.tibco.pvm.im.rt.xm.config.ImxBundleActivator" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="378" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="375" class="com.tibco.trinity.runtime.core.provider.authn.wss.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="374" class="com.tibco.trinity.runtime.core.provider.authn.tivoli.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="377" class="com.tibco.trinity.runtime.core.provider.authn.xml.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="376" class="com.tibco.trinity.runtime.core.provider.authn.x509.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="232" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="231" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="234" class="com.tibco.pvm.infra.dataexch.xml.genxdm.config.IpmxGenxBundleActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="233" class="com.tibco.pvm.util.config.model.osgi.PmOSGiModelManager" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="236" class="com.tibco.pvm.im.db.config.ImDbBundleActivator" name="%pluginName" provider="%providerName">
+		<library name="pvm-imcore-db.jar"/>
+	</bundle>
+	<bundle bundleID="235" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="238" class="com.tibco.pvm.im.rt.imr.config.ImrBundleActivator" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="237" class="com.tibco.pvm.im.config.ImCoreBundleActivator" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="262" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="mail.jar"/>
+	</bundle>
+	<bundle bundleID="263" class="com.tibco.tpcl.javax.osgi.factories.Activator" name="Jar service provider OSGi support" provider="TIBCO Software Inc.">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="260" name="TIBCO TPCL jansi" provider="FuseSource, Corp.">
+		<library name="jansi-1.11.jar"/>
+	</bundle>
+	<bundle bundleID="261" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jms.jar"/>
+	</bundle>
+	<bundle bundleID="361" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="362" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="360" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="366" class="com.tibco.trinity.runtime.core.connector.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="365" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="364" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="363" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="369" class="com.tibco.trinity.runtime.core.provider.authn.ldap.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="368" class="com.tibco.trinity.runtime.core.provider.authn.kerberos.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="367" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="269" name="JRE package exports for Sun" provider="TIBCO Software Inc."/>
+	<bundle bundleID="268" name="Java Servlet API" provider="Sun Microsystems, Inc.">
+		<library name="lib/geronimo-servlet_3.0_spec-1.0.jar"/>
+	</bundle>
+	<bundle bundleID="267" name="JSP API" provider="Sun Microsystems, Inc.">
+		<library name="jsp-api.jar"/>
+		<library name="el-api.jar"/>
+	</bundle>
+	<bundle bundleID="266" name="TIBCO javax.servlet.jsp.jstl Plug-in" provider="TIBCO Software Inc.">
+		<library name="com.springsource.javax.servlet.jsp.jstl.jar"/>
+		<library name="com.springsource.org.apache.taglibs.standard.jar"/>
+	</bundle>
+	<bundle bundleID="265" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="connector-api.jar"/>
+	</bundle>
+	<bundle bundleID="264" name="JSR168 Portlet API" provider="Sun Microsystems, Inc. and IBM Corporation">
+		<library name="portlet.jar"/>
+	</bundle>
+	<bundle bundleID="250" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="251" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="252" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="350" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="351" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="353" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="352" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="355" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="354" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="357" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="356" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="359" class="com.tibco.trinity.realm.core.provider.realm.jdbc.osgi.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="358" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="258" name="Shoal Library" provider="Project Shoal">
+		<library name="icu4j-3_8_1.jar"/>
+	</bundle>
+	<bundle bundleID="257" name="Jackson JSON processor" provider="http://fasterxml.com">
+		<library name="jackson-core-2.1.4.jar"/>
+		<library name="jackson-annotations-2.1.4.jar"/>
+		<library name="jackson-databind-2.1.4.jar"/>
+	</bundle>
+	<bundle bundleID="259" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="jmxremote_optional.jar"/>
+	</bundle>
+	<bundle bundleID="254" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="253" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="256" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="wstx-asl-3.2.9.jar"/>
+	</bundle>
+	<bundle bundleID="255" localization="plugin" name="%pluginName" provider="%providerName"/>
+</map>

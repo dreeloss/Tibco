@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.hello_world">
+    <globalDestinations/>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_NhCWMPGmEeWIwPXHM2ROHw" kind="wsdl" location="Service Descriptors"/>
+    <config:folder id="_NhaJoPGmEeWIwPXHM2ROHw" kind="com.tibco.bw.process.folder" location="Processes"/>
+  </config:specialFolders>
+</config:ProjectConfig>
